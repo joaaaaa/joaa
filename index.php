@@ -10,6 +10,8 @@ include_once 'joaa/Log.php';
 
 $arr=array();
 
+Alex\Log::log('Version '.file_get_contents('./version'));
+
 $arr[] = readline("a= ");
 $arr[] = readline("b= ");
 $arr[] = readline("c= ");
