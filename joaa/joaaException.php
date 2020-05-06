@@ -1,5 +1,5 @@
 <?php
 namespace joaa;
-class joaaException extends RuntimeException
+class joaaException extends \RuntimeException
 {
 }
